@@ -1,0 +1,9 @@
+{
+    "version":  "20260917-30e777b",
+    "commit":  "30e777b5817a08816b2a22a6237ec6df9c84013a",
+    "zip":  "AI-Studio-Portable-20260917-30e777b.zip",
+    "sha256":  "8d0541304894af8be9c2680e4c36b081a2f8cdb96631c358a6078ce1c16c1bb9",
+    "bytes":  882835,
+    "built":  "2026-09-17 16:41:15",
+    "notes":  "Asking whether a remote exists must not be fatal"
+}
