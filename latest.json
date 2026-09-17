@@ -1,9 +1,11 @@
 {
-    "version":  "20260917-48e7350",
-    "commit":  "48e7350244d9cbf6c7608345d9c6874f0af09d76",
-    "zip":  "AI-Studio-Portable-20260917-48e7350.zip",
-    "sha256":  "bdcf0ca38743f8e495bff01b57045a45198174d3a6c2260c349befe20b93a3e1",
-    "bytes":  846511,
-    "built":  "2026-09-17 17:26:11",
-    "notes":  "Privacy audit: stop shipping the notes, and catch shapes not just strings"
+    "version":  "Build 1",
+    "build":  1,
+    "commit":  "c9a79be2c4431ce36e60b4b0917e2c23befd71d6",
+    "zip":  "AI-Studio-Portable-Build-1.zip",
+    "sha256":  "bba87ae1ab127626acfb280034e8a4535d3287943dba7a167e2be1f768dc300f",
+    "bytes":  874007,
+    "built":  "2026-09-17 18:50:39",
+    "stamp":  "20260917",
+    "notes":  "The first release.\n\n- Four modes in one window: text to image, image to image, inpainting, and chat.\n- Everything runs on your own machine. No prompt, image or conversation is ever\n  sent anywhere - generation and chat happen entirely on your own hardware, and\n  the studio works with the network unplugged once it is installed. Three things\n  do use the network, all of them visible: turning on web search sends that\n  query to Bing or DuckDuckGo, installing a model downloads it from that model\u0027s\n  own host, and the studio checks once at startup whether a newer build exists.\n  You can switch the update check off in config.json.\n- One folder holds all of it. The installer puts ComfyUI, llama.cpp, Python and\n  the models inside the studio folder rather than anywhere else on your PC, so\n  moving it means moving the folder and removing it means deleting the folder.\n- Models you already have elsewhere are found and used where they are, and the\n  studio only ever reads them.\n- Krea 2 Turbo for images, with LoRA support, an upscaler, and a masked editor\n  for changing part of an image instead of regenerating it.\n- Chat is deliberately disabled in this build. It answers everything with the\n  same nonsense phrase on purpose: this build exists to prove the update\n  pipeline works from end to end, and the clearest way to see an update land is\n  for the before and after to be impossible to confuse. The next build turns\n  chat on properly - Qwen3 1.7B, with memory, document reading and optional web\n  search.\n- Sixteen colour schemes and a light/dark switch.\n- A problem report you can read in full before it is saved, which never contains\n  your prompts, images, conversations or file paths.\n- Updates arrive by themselves: the studio notices a new build, asks before\n  downloading anything, and never touches your images, models or settings."
 }
