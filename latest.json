@@ -1,11 +1,11 @@
 {
-    "version":  "Build 4",
-    "build":  4,
-    "commit":  "0a5baeef749dd309c30a75b96da8c829da2df231",
-    "zip":  "AI-Studio-Portable-Build-4.zip",
-    "sha256":  "4cf824c9d3897fa26d32782f0a49aa472847ea448e677ee2bf2d8755f2bf5308",
-    "bytes":  881712,
-    "built":  "2026-09-17 20:27:21",
+    "version":  "Build 5",
+    "build":  5,
+    "commit":  "c9544652c66ca4b7639a4a222c53de2ba137b5b9",
+    "zip":  "AI-Studio-Portable-Build-5.zip",
+    "sha256":  "348931fcb2d8642e92be63cd45e48f9019cebf4b8427e0a9072e261e5d612d5b",
+    "bytes":  882452,
+    "built":  "2026-09-17 20:39:40",
     "stamp":  "20260917",
-    "notes":  "- The bracketed prompt template has been dropped. The library ships the one\n  worked example and nothing else; it is meant to fill up with your own saved\n  settings rather than ours."
+    "notes":  "- Updates show up faster. The studio was reading its release information\n  through a cache that holds a file for about five minutes, so a build could\n  sit published for that long before anything noticed it. It now reads from an\n  address that is not cached, and falls back to the old one if that is\n  unavailable. A new build should reach you within a few minutes of being\n  published rather than up to ten."
 }
