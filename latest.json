@@ -1,11 +1,11 @@
 {
-    "version":  "Build 6",
-    "build":  6,
-    "commit":  "a7f8fcde20f0a4c9e9a11258f0c358015ac0e413",
-    "zip":  "AI-Studio-Portable-Build-6.zip",
-    "sha256":  "7a808a4731c166b961aa1a1baf09f953ffe8fcbe8b74e7c6408c85f023493f02",
-    "bytes":  886074,
-    "built":  "2026-09-17 20:59:31",
+    "version":  "Build 7",
+    "build":  7,
+    "commit":  "e29187e86edfda8e6c4e619bc3499e1340e72667",
+    "zip":  "AI-Studio-Portable-Build-7.zip",
+    "sha256":  "f5c3471184bfa37dce02e836b28d52315def7efaab9e626f1c09475baa322a43",
+    "bytes":  886950,
+    "built":  "2026-09-17 21:19:57",
     "stamp":  "20260917",
-    "notes":  "- Checkpoints you drop in are found. Putting a .safetensors file into\n  models/checkpoints did nothing at all before this: the studio checked whether\n  four specific files were present rather than looking at what was in the\n  folder, so your own model was invisible however many times you rescanned or\n  restarted - while the note in that folder promised the opposite.\n  Drop one in, press Rescan, and it appears in the model picker under its own\n  filename.\n- Because nothing in a checkpoint file says which pipeline it wants - SDXL,\n  SD 1.5, Pony and Illustrious all look the same from outside - the studio\n  assumes SDXL and lets you change it per file in the Models panel. If an anime\n  model comes out looking washed out or overcooked, that is the setting to\n  change; it also picks the right step count and guidance for you."
+    "notes":  "- The Models panel says where to put your own checkpoints, and lists the exact\n  folders it just checked. A file that was never found and a folder you did not\n  mean to use look the same from the outside; now the panel tells you which.\n- A problem reading one model folder no longer empties the whole Models panel.\n  Anything that went wrong while checking what is installed used to leave the\n  panel saying nothing at all, which looks identical to having no models."
 }
