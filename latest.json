@@ -1,11 +1,11 @@
 {
-    "version":  "Build 10",
-    "build":  10,
-    "commit":  "11131a94159edd5c803b7b821d197466b2e5e1e6",
-    "zip":  "AI-Studio-Portable-Build-10.zip",
-    "sha256":  "1b793ff7a7472e9e8cfd447bd4f20a8a128f0f05ddf6a73cc45845b6224a20ff",
-    "bytes":  890517,
-    "built":  "2026-09-17 23:23:18",
+    "version":  "Build 11",
+    "build":  11,
+    "commit":  "d732fce8458bffa8bcad26918ce545ddfdb7b61c",
+    "zip":  "AI-Studio-Portable-Build-11.zip",
+    "sha256":  "d0fc346fba2c4dffb1dafe00e8d12839b8d977029fa37b467c724d019163c6a4",
+    "bytes":  892266,
+    "built":  "2026-09-17 23:29:23",
     "stamp":  "20260917",
-    "notes":  "- The studio could be told a new build did not exist, and believe it. It asks\n  GitHub two different ways and both answers are cached without saying so, so\n  one of them could still be reporting the previous build minutes after a new\n  one went out - and the studio trusted whichever it asked first. It now asks\n  both and believes the newer one. This is why Build 9 appeared not to arrive.\n- You can check for updates yourself. Click the build number in the corner and\n  the version log now says when it last looked and whether anything is waiting,\n  with a button to look again right now. It checks every five minutes on its\n  own and used to say nothing in between, so there was no way to tell a slow\n  update from a broken one."
+    "notes":  "- The studio works out what a model is by reading it, instead of guessing from\n  which folder it is in. Plenty of Krea 2 models are published with the word\n  \"checkpoint\" in their filename, so they get put in the checkpoints folder and\n  were being offered as SDXL - which would have produced nothing usable. They\n  are recognised as Krea 2 now wherever you put them, and the engine loads them\n  from either folder. You should not have to know the difference between the\n  two to use your own models."
 }
