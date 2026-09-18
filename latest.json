@@ -1,11 +1,11 @@
 {
-    "version":  "Build 8",
-    "build":  8,
-    "commit":  "d3fd424e6ef94c390540fdf37d6ec2c945edd82f",
-    "zip":  "AI-Studio-Portable-Build-8.zip",
-    "sha256":  "9be90dc12a8555396a96e93a3833aa295aba1fb255a8e99979de9ed4b5c614b7",
-    "bytes":  887933,
-    "built":  "2026-09-17 23:04:21",
+    "version":  "Build 9",
+    "build":  9,
+    "commit":  "2ab0ad92bfad34078825cc0823379dc1186d866f",
+    "zip":  "AI-Studio-Portable-Build-9.zip",
+    "sha256":  "abaa224fb5da5049b116cc28086f433d7baa7059d3f5c09395b1248674a5098a",
+    "bytes":  889108,
+    "built":  "2026-09-17 23:18:09",
     "stamp":  "20260917",
-    "notes":  "- Moving the studio folder now works properly. The file telling the image\n  engine where this install keeps its models held the full path and was only\n  written once, during setup - so after moving the folder to another drive, or\n  out of a synced folder like OneDrive, your own checkpoints and LoRAs would be\n  listed but fail to load when you actually generated. The studio notices it\n  has moved when it starts and puts that right. Nothing else needs doing:\n  close it, move the folder, run Start.bat from the new location."
+    "notes":  "- Krea 2 models you drop in are found. Build 6 only looked in the checkpoints\n  folder, which holds one-file models like SDXL - but a Krea 2 model is the\n  diffusion half on its own and belongs in diffusion_models, so dropping one in\n  the right place showed nothing at all. Both folders are scanned now, and a\n  Krea 2 model appears under Krea 2 rather than being offered as SDXL. It\n  borrows Turbo\u0027s text encoder and VAE, which are shared.\n- The Models panel names both folders and says which kind of file goes in each,\n  because putting a model in the other one is exactly how it ends up invisible."
 }
