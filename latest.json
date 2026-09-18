@@ -1,11 +1,11 @@
 {
-    "version":  "Build 11",
-    "build":  11,
-    "commit":  "d732fce8458bffa8bcad26918ce545ddfdb7b61c",
-    "zip":  "AI-Studio-Portable-Build-11.zip",
-    "sha256":  "d0fc346fba2c4dffb1dafe00e8d12839b8d977029fa37b467c724d019163c6a4",
-    "bytes":  892266,
-    "built":  "2026-09-17 23:29:23",
-    "stamp":  "20260917",
-    "notes":  "- The studio works out what a model is by reading it, instead of guessing from\n  which folder it is in. Plenty of Krea 2 models are published with the word\n  \"checkpoint\" in their filename, so they get put in the checkpoints folder and\n  were being offered as SDXL - which would have produced nothing usable. They\n  are recognised as Krea 2 now wherever you put them, and the engine loads them\n  from either folder. You should not have to know the difference between the\n  two to use your own models."
+    "version":  "Build 13",
+    "build":  13,
+    "commit":  "b13d60d764d8dc82d8751c3a84b9a901c345a639",
+    "zip":  "AI-Studio-Portable-Build-13.zip",
+    "sha256":  "92875fda52b68969759edf9db38aa41d093bdb0701d7970b75ce03a6976de01c",
+    "bytes":  905635,
+    "built":  "2026-09-18 19:57:55",
+    "stamp":  "20260918",
+    "notes":  "- Image generation now refuses prompts asking for sexual imagery of anyone\n  under 18. Until this build that check existed only in chat, which for an\n  image tool was the wrong way round entirely - anything typed into the prompt\n  box reached the model unexamined.\n- Adult work is untouched. The check needs both an age or child signal and a\n  sexual one in the same prompt, so explicit adult prompts, ordinary photos of\n  children, and everything else pass exactly as before. Tested against thirty\n  prompts across both.\n- Inpainting is held to a stricter rule: an inpaint prompt cannot describe a\n  child at all. Inpainting paints into a picture you supplied, which the studio\n  cannot see, and that is the one path where being cautious is worth more than\n  being permissive.\n- A refused prompt is refused before the engine starts, so it costs no time on\n  the graphics card and leaves no file. It is never written to the log, and the\n  message names the limit rather than what matched.\n- README and the licence now say plainly what the studio will not do. Nothing\n  else is restricted."
 }
