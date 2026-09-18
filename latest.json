@@ -1,11 +1,11 @@
 {
-    "version":  "Build 2",
-    "build":  2,
-    "commit":  "7fde01bda0439990c1181211a931a1c0fb85b46c",
-    "zip":  "AI-Studio-Portable-Build-2.zip",
-    "sha256":  "62a00083816f122de163b0c16ca6286a3a5de5697cf286d2ee642c41fb6a3123",
-    "bytes":  879668,
-    "built":  "2026-09-17 19:24:16",
+    "version":  "Build 3",
+    "build":  3,
+    "commit":  "7a0c426a736f4361cd129ceefb3bbfe6709fe086",
+    "zip":  "AI-Studio-Portable-Build-3.zip",
+    "sha256":  "06fdbaecff4a74243470568bf6db57d33f45c0fd080693a7871f5e79687e0e90",
+    "bytes":  882109,
+    "built":  "2026-09-17 20:18:41",
     "stamp":  "20260917",
-    "notes":  "Chat works properly now. Build 1 answered everything with the same nonsense\nphrase on purpose, to prove an update could reach you; this is the build that\nwas being proved.\n\n- Chat is on: Qwen3 1.7B, with memory, document reading and optional web\n  search. Ask it something.\n- The assistant is uncensored and will not lecture you, with one exception it\n  will not be talked out of: it does not write sexual content involving anyone\n  under 18. That is now enforced by the studio itself rather than left to the\n  model\u0027s judgement, so it holds regardless of how a request is phrased.\n- Better answers to short messages. Saying \"hi\" used to get \"hi\" back.\n- The model pickers only list models you actually have. They used to show\n  every model the studio supports, most of them marked \"not installed\", which\n  on a fresh install meant a list of four things you cannot use and one you\n  can. Anything you add later appears on its own. The Models panel still\n  shows the full list, including what is missing, because that is a list to\n  read rather than a menu to choose from.\n- AMD and Intel graphics cards are installed for correctly. Before this, the\n  installer only recognised NVIDIA cards and quietly assumed one when it found\n  nothing, so an AMD or Intel PC downloaded about 22 GB of NVIDIA-only engines\n  and then could not start. If your card is somehow still not recognised, set\n  \"gpu_vendor\" in config.json to nvidia, amd, intel or cpu."
+    "notes":  "- Pressing Generate twice on the same prompt makes a second image. It used to\n  finish in about two seconds and hand back the first one: an unchanged prompt\n  with no seed set produced an identical request, and ComfyUI answers an\n  identical request out of its cache. Leaving the seed box empty now means a\n  new random seed each time, which is what it always looked like it meant.\n  Typing a seed in still repeats exactly, which is what that is for.\n- The Models panel lists what you have rather than what you do not. It used to\n  show three checkpoints permanently marked \"Missing\", naming files the studio\n  never ships and you were never asked to fetch.\n- The preset library ships with two starters instead of ten assorted examples,\n  both filed under \"Starter Prompts\". One is a character prompt written out in\n  full; the other is the same thing with its parts named and left blank. Open\n  the template, keep the example beside it, and it is clear what belongs in\n  each bracket. Your own saved presets are untouched.\n- Updates appear on their own. The studio used to look for a new build once,\n  a few seconds after the page opened, and never again - so one left open\n  never noticed, and you had to reload before it would tell you. It now checks\n  every few minutes in the background and the button appears by itself,\n  usually within a minute or so of a build being published."
 }
