@@ -1,11 +1,11 @@
 {
-    "version":  "Build 7",
-    "build":  7,
-    "commit":  "e29187e86edfda8e6c4e619bc3499e1340e72667",
-    "zip":  "AI-Studio-Portable-Build-7.zip",
-    "sha256":  "f5c3471184bfa37dce02e836b28d52315def7efaab9e626f1c09475baa322a43",
-    "bytes":  886950,
-    "built":  "2026-09-17 21:19:57",
+    "version":  "Build 8",
+    "build":  8,
+    "commit":  "d3fd424e6ef94c390540fdf37d6ec2c945edd82f",
+    "zip":  "AI-Studio-Portable-Build-8.zip",
+    "sha256":  "9be90dc12a8555396a96e93a3833aa295aba1fb255a8e99979de9ed4b5c614b7",
+    "bytes":  887933,
+    "built":  "2026-09-17 23:04:21",
     "stamp":  "20260917",
-    "notes":  "- The Models panel says where to put your own checkpoints, and lists the exact\n  folders it just checked. A file that was never found and a folder you did not\n  mean to use look the same from the outside; now the panel tells you which.\n- A problem reading one model folder no longer empties the whole Models panel.\n  Anything that went wrong while checking what is installed used to leave the\n  panel saying nothing at all, which looks identical to having no models."
+    "notes":  "- Moving the studio folder now works properly. The file telling the image\n  engine where this install keeps its models held the full path and was only\n  written once, during setup - so after moving the folder to another drive, or\n  out of a synced folder like OneDrive, your own checkpoints and LoRAs would be\n  listed but fail to load when you actually generated. The studio notices it\n  has moved when it starts and puts that right. Nothing else needs doing:\n  close it, move the folder, run Start.bat from the new location."
 }
