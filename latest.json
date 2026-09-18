@@ -1,11 +1,11 @@
 {
-    "version":  "Build 9",
-    "build":  9,
-    "commit":  "2ab0ad92bfad34078825cc0823379dc1186d866f",
-    "zip":  "AI-Studio-Portable-Build-9.zip",
-    "sha256":  "abaa224fb5da5049b116cc28086f433d7baa7059d3f5c09395b1248674a5098a",
-    "bytes":  889108,
-    "built":  "2026-09-17 23:18:09",
+    "version":  "Build 10",
+    "build":  10,
+    "commit":  "11131a94159edd5c803b7b821d197466b2e5e1e6",
+    "zip":  "AI-Studio-Portable-Build-10.zip",
+    "sha256":  "1b793ff7a7472e9e8cfd447bd4f20a8a128f0f05ddf6a73cc45845b6224a20ff",
+    "bytes":  890517,
+    "built":  "2026-09-17 23:23:18",
     "stamp":  "20260917",
-    "notes":  "- Krea 2 models you drop in are found. Build 6 only looked in the checkpoints\n  folder, which holds one-file models like SDXL - but a Krea 2 model is the\n  diffusion half on its own and belongs in diffusion_models, so dropping one in\n  the right place showed nothing at all. Both folders are scanned now, and a\n  Krea 2 model appears under Krea 2 rather than being offered as SDXL. It\n  borrows Turbo\u0027s text encoder and VAE, which are shared.\n- The Models panel names both folders and says which kind of file goes in each,\n  because putting a model in the other one is exactly how it ends up invisible."
+    "notes":  "- The studio could be told a new build did not exist, and believe it. It asks\n  GitHub two different ways and both answers are cached without saying so, so\n  one of them could still be reporting the previous build minutes after a new\n  one went out - and the studio trusted whichever it asked first. It now asks\n  both and believes the newer one. This is why Build 9 appeared not to arrive.\n- You can check for updates yourself. Click the build number in the corner and\n  the version log now says when it last looked and whether anything is waiting,\n  with a button to look again right now. It checks every five minutes on its\n  own and used to say nothing in between, so there was no way to tell a slow\n  update from a broken one."
 }
