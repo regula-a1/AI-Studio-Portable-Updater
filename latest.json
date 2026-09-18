@@ -1,11 +1,11 @@
 {
-    "version":  "Build 5",
-    "build":  5,
-    "commit":  "c9544652c66ca4b7639a4a222c53de2ba137b5b9",
-    "zip":  "AI-Studio-Portable-Build-5.zip",
-    "sha256":  "348931fcb2d8642e92be63cd45e48f9019cebf4b8427e0a9072e261e5d612d5b",
-    "bytes":  882452,
-    "built":  "2026-09-17 20:39:40",
+    "version":  "Build 6",
+    "build":  6,
+    "commit":  "a7f8fcde20f0a4c9e9a11258f0c358015ac0e413",
+    "zip":  "AI-Studio-Portable-Build-6.zip",
+    "sha256":  "7a808a4731c166b961aa1a1baf09f953ffe8fcbe8b74e7c6408c85f023493f02",
+    "bytes":  886074,
+    "built":  "2026-09-17 20:59:31",
     "stamp":  "20260917",
-    "notes":  "- Updates show up faster. The studio was reading its release information\n  through a cache that holds a file for about five minutes, so a build could\n  sit published for that long before anything noticed it. It now reads from an\n  address that is not cached, and falls back to the old one if that is\n  unavailable. A new build should reach you within a few minutes of being\n  published rather than up to ten."
+    "notes":  "- Checkpoints you drop in are found. Putting a .safetensors file into\n  models/checkpoints did nothing at all before this: the studio checked whether\n  four specific files were present rather than looking at what was in the\n  folder, so your own model was invisible however many times you rescanned or\n  restarted - while the note in that folder promised the opposite.\n  Drop one in, press Rescan, and it appears in the model picker under its own\n  filename.\n- Because nothing in a checkpoint file says which pipeline it wants - SDXL,\n  SD 1.5, Pony and Illustrious all look the same from outside - the studio\n  assumes SDXL and lets you change it per file in the Models panel. If an anime\n  model comes out looking washed out or overcooked, that is the setting to\n  change; it also picks the right step count and guidance for you."
 }
