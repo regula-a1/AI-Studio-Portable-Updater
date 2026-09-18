@@ -1,11 +1,11 @@
 {
-    "version":  "Build 3",
-    "build":  3,
-    "commit":  "7a0c426a736f4361cd129ceefb3bbfe6709fe086",
-    "zip":  "AI-Studio-Portable-Build-3.zip",
-    "sha256":  "06fdbaecff4a74243470568bf6db57d33f45c0fd080693a7871f5e79687e0e90",
-    "bytes":  882109,
-    "built":  "2026-09-17 20:18:41",
+    "version":  "Build 4",
+    "build":  4,
+    "commit":  "0a5baeef749dd309c30a75b96da8c829da2df231",
+    "zip":  "AI-Studio-Portable-Build-4.zip",
+    "sha256":  "4cf824c9d3897fa26d32782f0a49aa472847ea448e677ee2bf2d8755f2bf5308",
+    "bytes":  881712,
+    "built":  "2026-09-17 20:27:21",
     "stamp":  "20260917",
-    "notes":  "- Pressing Generate twice on the same prompt makes a second image. It used to\n  finish in about two seconds and hand back the first one: an unchanged prompt\n  with no seed set produced an identical request, and ComfyUI answers an\n  identical request out of its cache. Leaving the seed box empty now means a\n  new random seed each time, which is what it always looked like it meant.\n  Typing a seed in still repeats exactly, which is what that is for.\n- The Models panel lists what you have rather than what you do not. It used to\n  show three checkpoints permanently marked \"Missing\", naming files the studio\n  never ships and you were never asked to fetch.\n- The preset library ships with two starters instead of ten assorted examples,\n  both filed under \"Starter Prompts\". One is a character prompt written out in\n  full; the other is the same thing with its parts named and left blank. Open\n  the template, keep the example beside it, and it is clear what belongs in\n  each bracket. Your own saved presets are untouched.\n- Updates appear on their own. The studio used to look for a new build once,\n  a few seconds after the page opened, and never again - so one left open\n  never noticed, and you had to reload before it would tell you. It now checks\n  every few minutes in the background and the button appears by itself,\n  usually within a minute or so of a build being published."
+    "notes":  "- The bracketed prompt template has been dropped. The library ships the one\n  worked example and nothing else; it is meant to fill up with your own saved\n  settings rather than ours."
 }
