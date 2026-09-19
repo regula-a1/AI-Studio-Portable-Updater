@@ -1,11 +1,11 @@
 {
-    "version":  "Build 14",
-    "build":  14,
-    "commit":  "079dfeb8963c38665a3ab337a904662a44a50431",
-    "zip":  "AI-Studio-Portable-Build-14.zip",
-    "sha256":  "92b7acc8f002ccc4c32f6b92e32838d17959e6af9c8c19fe9d2bce9e0d2ccfb8",
-    "bytes":  905272,
-    "built":  "2026-09-18 23:01:27",
-    "stamp":  "20260918",
-    "notes":  "- Replaces Build 13, which could fail to install. Build 13 was published\n  twice, and the second copy reused the first one\u0027s filename - so for a few\n  minutes the download did not match what the studio was expecting and the\n  update was refused rather than applied. Nothing was wrong with the build\n  itself; if you are reading this, you already have it.\n- The release tooling can no longer publish over a build that is already out.\n  A correction gets the next number now, which is what stops this happening\n  again."
+    "version":  "Build 15",
+    "build":  15,
+    "commit":  "e87a98db419354712faa39f2585a33e837cf8826",
+    "zip":  "AI-Studio-Portable-Build-15.zip",
+    "sha256":  "04574d1be7da61dc51d92b0cd6b1f1fe43881aafd636de018caa50e35b8660ab",
+    "bytes":  908250,
+    "built":  "2026-09-19 10:17:27",
+    "stamp":  "20260919",
+    "notes":  "- CSAM protection has been updated and improved.\n- Adult work is unaffected; nothing else was changed."
 }
