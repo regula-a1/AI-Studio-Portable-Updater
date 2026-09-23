@@ -1,0 +1,11 @@
+{
+    "version":  "Build 18",
+    "build":  18,
+    "commit":  "8fe1da566d4effb7d03f6c8d5b47d8c2fe86d376",
+    "zip":  "AI-Studio-Portable-Build-18.zip",
+    "sha256":  "d115a63b3932af17bf3324e7d084cdc39030166ab9858f1cebb09d89652af322",
+    "bytes":  944169,
+    "built":  "2026-09-23 15:45:29",
+    "stamp":  "20260923",
+    "notes":  "- The studio starts normally again in this new distribution.\n- Update checks use a separate Build 18+ feed. Older installations continue\n  to see Build 17 in their existing update feed."
+}
