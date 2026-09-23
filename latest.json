@@ -1,0 +1,11 @@
+{
+  "version": "Build 17",
+  "build": 17,
+  "commit": "c9c4aadf0c1e74d3a2afbc8f02107d454c43a640",
+  "zip": "AI-Studio-Portable-Build-17.zip",
+  "sha256": "e8e4a8167ab9945a9c5b1f5952e79e516cb6a3fb01dde97deb784909a20ea41a",
+  "bytes": 944980,
+  "built": "2026-09-23 12:46:22",
+  "stamp": "20260923",
+  "notes": "- This distribution is retired. On restart, the studio displays a retirement\n  notice and does not start its local server or generation engines.\n- Existing images, models, settings, and conversations remain in the folder.\n  Ask the person who supplied this copy for a current distribution."
+}
