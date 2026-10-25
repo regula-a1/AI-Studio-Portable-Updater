@@ -1,11 +1,11 @@
 {
-    "version":  "Build 20",
-    "build":  20,
-    "commit":  "fcdd4378bb2d3869b8a95096a6d6c5e208e08177",
-    "zip":  "AI-Studio-Portable-Build-20.zip",
-    "sha256":  "0d0786e9ff3f9919bf77e9f7f0c9e23faa12e76a419e86b85ddaa1bcf4f51ed4",
-    "bytes":  976245,
-    "built":  "2026-10-25 17:28:34",
+    "version":  "Build 21",
+    "build":  21,
+    "commit":  "210cee2f0ed546cc223815685503ec004c632443",
+    "zip":  "AI-Studio-Portable-Build-21.zip",
+    "sha256":  "ab2dd699ff4d70b80a66177d37452289baaf679638edb1e0277aa04a63c9f431",
+    "bytes":  976445,
+    "built":  "2026-10-25 18:00:34",
     "stamp":  "20261025",
-    "notes":  "- Fixed a new install that could never finish setting up. One of the add-ons\n  the studio needs could no longer be downloaded, so setup stopped at the same\n  place every time and started again on every launch. That add-on now comes\n  with the studio.\n- First-time setup now asks what to download of the starter models: all of\n  them, only the two files a Krea 2 model you bring yourself needs (about\n  5 GB), or none. Before, the only way to say no was to close the window, which\n  left setup unfinished. The two files can be fetched later from the studio\n  folder; the manual shows how.\n- A model you add that is missing files it depends on is now listed as \"needs\n  files\" and says which ones, instead of appearing ready and then failing.\n- Setup no longer downloads a starter file you have already put in your\n  models folder."
+    "notes":  "- Fixed a model you add yourself not appearing in the Base checkpoint list. The\n  studio found the file but did not put it in the list until you switched\n  architecture and back. It now appears as soon as the studio has looked."
 }
