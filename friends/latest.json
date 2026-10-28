@@ -1,11 +1,11 @@
 {
-    "version":  "Build 22",
-    "build":  22,
-    "commit":  "608a2d72eb344f54d333ff331ffd578b0936cedc",
-    "zip":  "AI-Studio-Portable-Build-22.zip",
-    "sha256":  "49c33874278826b4f3443c63c85187823a0498280d5f9de58b81b8bae69ac128",
-    "bytes":  1042098,
-    "built":  "2026-10-27 21:23:01",
-    "stamp":  "20261027",
-    "notes":  "- Bulk prompt queueing: paste multiple prompts (from code blocks, numbered\n  lists, dividers, or paragraphs) to queue them automatically with live\n  progress, pause, resume, and per-character cast expansion.\n- 3-pane preset browser and bulk manager: full category browsing, multi-select\n  editing that preserves untouched settings across presets, category renaming,\n  \"Use random match\", \"Queue selected\", backup export/import (.spresets), and\n  Markdown export.\n- Character library and character lock: manage character profiles and\n  multi-version LoRAs, automatically include appearance descriptions, and lock\n  active characters across preset changes.\n- Modern social aspect ratios: 4:5 Portrait (social) and 9:16 Vertical\n  (vertical) across all resolution tiers.\n- Output library: browse all completed generations with infinite scroll,\n  instant search filtering, and one-click store-only ZIP archive download.\n- UI and mobile refinements: mobile source-image button in Transform and\n  Inpaint modes, direct Preset Library shortcut on the workspace bar,\n  Ctrl/Cmd+Enter generation shortcut, and improved touch gestures."
+    "version":  "Build 23",
+    "build":  23,
+    "commit":  "4099c931170a48aca2a928c9aab4a449c5b5a880",
+    "zip":  "AI-Studio-Portable-Build-23.zip",
+    "sha256":  "b66cc6f139e07e1273beff47d0db2cb7a9732e67e974bb7d7092400b1842ccf8",
+    "bytes":  1047113,
+    "built":  "2026-10-28 19:42:22",
+    "stamp":  "20261028",
+    "notes":  "- Automatic memory profiles for smaller graphics cards: tiled image processing\n  on 8 GB cards, with smaller tiles and CPU prompt encoding on 4 GB cards.\n  4 GB support is experimental; start with Draft and AI upscaling off.\n- Fixed Normal memory mode preventing the image engine from starting. Larger\n  cards retain their standard workflows and output settings.\n- Chat can use a shorter conversation window on small cards. Model suggestions\n  now consider installed files, and image-to-chat switching waits for memory\n  to be released before deciding whether the image engine must stop.\n- Added resolution guidance for small cards and bounded local engine logs to\n  help diagnose startup failures and memory problems."
 }
