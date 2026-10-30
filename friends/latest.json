@@ -1,11 +1,11 @@
 {
-    "version":  "Build 24",
-    "build":  24,
-    "commit":  "d6c283694e7888c628d23267003a2dadb314de04",
-    "zip":  "AI-Studio-Portable-Build-24.zip",
-    "sha256":  "87ea0acb768c1d0cb67cce76759d1b9e73e4cf0e67b537e321fe43112cd7304d",
-    "bytes":  1058168,
-    "built":  "2026-10-30 09:30:10",
+    "version":  "Build 25",
+    "build":  25,
+    "commit":  "eac2ee026434aef38bb8cd68d44bf52fd5461457",
+    "zip":  "AI-Studio-Portable-Build-25.zip",
+    "sha256":  "8c6c74d8e087c14524b692e15fef239ea42ecda2f58f2b23ad1d59110cf7785c",
+    "bytes":  1058338,
+    "built":  "2026-10-30 11:50:21",
     "stamp":  "20261030",
-    "notes":  "- Bring your own ComfyUI workflows. Export one from ComfyUI with Workflow \u003e\n  Export (API), or use a picture ComfyUI saved, and upload it in the Models \u0026\n  LoRAs panel. It then appears under Your workflows in the Architecture list.\n- The studio finds the workflow\u0027s prompt, negative prompt, seed, size and Load\n  Image by itself and fills them in for every image. Type {{prompt}} (or\n  {{negative}}, {{seed}}, {{width}}, {{height}}, {{image}}) into a field to\n  choose the spot yourself.\n- Works in Text to Image and Image to Image. Everything else - sampler, steps,\n  LoRAs, upscaling - comes from the workflow. See the manual for details."
+    "notes":  "- Fixed ComfyUI prompt validation failure (`VAEDecodeTiled: temporal_overlap;\n  VAEDecodeTiled: temporal_size`) on cards running the Low or Minimum memory\n  profiles. The required video/temporal tiling parameters are now supplied\n  when converting VAE decode and encode nodes to tiled mode."
 }
