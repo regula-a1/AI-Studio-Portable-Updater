@@ -1,11 +1,11 @@
 {
-    "version":  "Build 25",
-    "build":  25,
-    "commit":  "eac2ee026434aef38bb8cd68d44bf52fd5461457",
-    "zip":  "AI-Studio-Portable-Build-25.zip",
-    "sha256":  "8c6c74d8e087c14524b692e15fef239ea42ecda2f58f2b23ad1d59110cf7785c",
-    "bytes":  1058338,
-    "built":  "2026-10-30 11:50:21",
+    "version":  "Build 26",
+    "build":  26,
+    "commit":  "cfe033039ca207ae7989e5fcd4b974331a2bb948",
+    "zip":  "AI-Studio-Portable-Build-26.zip",
+    "sha256":  "07a328e83d0ef8be6bb7f47697b05e233eb8321d3477d7f1cafbe653fcbf4c46",
+    "bytes":  1070813,
+    "built":  "2026-10-30 21:28:06",
     "stamp":  "20261030",
-    "notes":  "- Fixed ComfyUI prompt validation failure (`VAEDecodeTiled: temporal_overlap;\n  VAEDecodeTiled: temporal_size`) on cards running the Low or Minimum memory\n  profiles. The required video/temporal tiling parameters are now supplied\n  when converting VAE decode and encode nodes to tiled mode."
+    "notes":  "- Add local WAN 2.2 image-to-video generation with a starting-image uploader,\n  motion prompt, job history, MP4 preview, and download.\n- Offer the optional 38 GB WAN model pack in the update dialog and Video tab.\n  Downloads resume after interruptions, reuse existing weights, check free disk\n  space first, and verify each file against its SHA-256 hash.\n- Keep generated videos encrypted in local history and separate from the image\n  queue and gallery."
 }
