@@ -1,11 +1,11 @@
 {
-    "version":  "Build 27",
-    "build":  27,
-    "commit":  "382c733c9dc1eeed8fd72cee5e7d1e02ef9b9caa",
-    "zip":  "AI-Studio-Portable-Build-27.zip",
-    "sha256":  "3e6502e542de08162115d3418c95ffd764ac3ecaf922d2319ad68e7e5976de92",
-    "bytes":  1071179,
-    "built":  "2026-10-31 10:37:16",
+    "version":  "Build 28",
+    "build":  28,
+    "commit":  "69dc349e6458a5c17f56429648c09c11d6531e21",
+    "zip":  "AI-Studio-Portable-Build-28.zip",
+    "sha256":  "de01b43fdaf8ce5aa8e414a5a0889093042616beed747f147cd900c003e8e3d2",
+    "bytes":  1073341,
+    "built":  "2026-10-31 10:57:21",
     "stamp":  "20261031",
-    "notes":  "- Fixed Generate video appearing to do nothing. When it is unavailable the\n  Video tab now says why - WAN 2.2 models not installed or still downloading,\n  no starting image, no prompt, or the studio locked - instead of leaving the\n  button greyed out."
+    "notes":  "- Fixed video generation ending with \"ComfyUI finished without saving a video\".\n  The clip was being rendered and saved, but the studio looked for it in the\n  wrong place in ComfyUI\u0027s report. Videos now complete and appear in the Video\n  tab. A video that already failed this way has to be generated again.\n- Added an **Open folder** button beside the Video preview and beside Queue \u0026\n  recent images. It opens the folder where finished videos and images are saved.\n- The folder finished work is saved in is now `data/media` instead of\n  `data/images`, since it holds videos too. Existing images move across by\n  themselves the first time this build starts."
 }
