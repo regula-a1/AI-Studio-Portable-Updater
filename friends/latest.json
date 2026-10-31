@@ -1,11 +1,11 @@
 {
-    "version":  "Build 28",
-    "build":  28,
-    "commit":  "69dc349e6458a5c17f56429648c09c11d6531e21",
-    "zip":  "AI-Studio-Portable-Build-28.zip",
-    "sha256":  "de01b43fdaf8ce5aa8e414a5a0889093042616beed747f147cd900c003e8e3d2",
-    "bytes":  1073341,
-    "built":  "2026-10-31 10:57:21",
+    "version":  "Build 29",
+    "build":  29,
+    "commit":  "8a8b4d75f19760240c2758a4e0763b486fb57da5",
+    "zip":  "AI-Studio-Portable-Build-29.zip",
+    "sha256":  "5091ba2dc3452b28a58d120b00dc03aeb248515218e5048281950e79d127cde6",
+    "bytes":  1074158,
+    "built":  "2026-10-31 13:13:57",
     "stamp":  "20261031",
-    "notes":  "- Fixed video generation ending with \"ComfyUI finished without saving a video\".\n  The clip was being rendered and saved, but the studio looked for it in the\n  wrong place in ComfyUI\u0027s report. Videos now complete and appear in the Video\n  tab. A video that already failed this way has to be generated again.\n- Added an **Open folder** button beside the Video preview and beside Queue \u0026\n  recent images. It opens the folder where finished videos and images are saved.\n- The folder finished work is saved in is now `data/media` instead of\n  `data/images`, since it holds videos too. Existing images move across by\n  themselves the first time this build starts."
+    "notes":  "- Fixed videos from vertical or square pictures coming out as a cropped\n  landscape clip. The starting image was cut down to a wide strip, so the video\n  showed only part of the subject and then invented the rest. The clip now takes\n  the shape of the starting image at the same overall size, so the whole picture\n  is kept. Videos already made are not affected and have to be generated again."
 }
